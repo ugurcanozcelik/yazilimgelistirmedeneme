@@ -1,0 +1,4 @@
+language : java
+script : "mvn -f finalders4/pom.xml clean install cobertura:cobertura"
+jdk : 
+  -openjdk8
